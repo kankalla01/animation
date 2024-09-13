@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box1{
+                width: 650px;
+                height: 60px;
+                background-color: yellow;
+                position: relative;
+                top: 250px;
+                left: 200px;
+            }
+            @keyframes box{
+                0%{ 
+                 
+                
+            }
+            25%{
+               
+              
+                transform: rotate(90deg);
+            }
+            50%{
+               
+                transform: rotate(180deg);
+                
+            }
+            75%{
+                transform: rotate(270deg);   
+              
+            }
+            100%{
+                transform: rotate(360deg);
+
+            }
+        }
+            .box1{
+                animation: box 2s linear 0.5s infinite  ;
+            }
+            .box2{
+                width: 650px;
+                height: 60px;
+                background-color:yellow;
+                position: relative;
+                top: 250px;
+                left: 200px;
+            }
+            @keyframes box2{
+                0%{ 
+                 
+                
+            }
+            25%{
+               
+              
+                transform: rotate(-90deg);
+            }
+            50%{
+               
+                transform: rotate(-180deg);
+                
+            }
+            75%{
+                transform: rotate(-270deg);   
+              
+            }
+            100%{
+                transform: rotate(-360deg);
+
+            }
+        }
+            .box2{
+                animation: box2 2s linear 0.5s infinite  ;
+            }
+            .box3{
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                position: relative;
+                left: 450px;
+                top: 120px;
+              
+            border-radius: 100%;
+            }
+            @keyframes box3{
+                0%{ 
+                
+                
+            }
+            25%{
+             
+                border-radius: 1000px;
+              
+              
+            }
+            50%{
+               
+              
+                
+            }
+            75%{
+               
+              
+            }
+            100%{
+              
+            }
+        }
+            .box3{
+                animation: box3 2s linear 0.5s   ;
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        
+    </body>
+</html>
